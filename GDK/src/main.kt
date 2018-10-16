@@ -1,12 +1,16 @@
-import classes.enumclass.Gender
-import classes.enumclass.User
+import classes.Sealed.Operation
 
 fun main(args: Array<String>) {
 
-    // Enum class
-    User.NAME.print()
-    User.EMAIL.print()
-    User.PHONE.print()
+    // Sealed class
+    val result = execute(10, Operation.Multiply(90))
+    println(result)
 
-    print(enumValues<Gender>().joinToString { it.name })
+}
+
+fun execute(x: Int, operation: Operation): Int = when (operation) {
+    is Operation.Add -> operation.value + x
+    is Operation.Divide -> operation.value / x
+    is Operation.Multiply -> operation.value * x
+    is Operation.Substract -> operation.value - x
 }
