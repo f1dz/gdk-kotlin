@@ -1,11 +1,9 @@
-import classes.nested.User
+import classes.enumclass.User
 
 fun main(args: Array<String>) {
 
     // Nested class
-    val user = User()
-    user.Name("Raffasya").printName()
-    user.Name("Devina").printName()
-    User().Name("Khofidin").printName()
-
+    User.NAME.print()
+    User.EMAIL.print()
+    User.PHONE.print()
 }
