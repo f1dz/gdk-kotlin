@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a810302-c449-4892-91e8-7a9e8ee9da8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GDK/src/classes/Sealed/Operation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GDK/src/classes/DataClass/Student.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GDK/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/GDK/src/main.kt" afterDir="false" />
     </list>
@@ -25,23 +25,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="9" />
+          <entry key="kt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="5" />
+          <entry key="Kotlin" value="6" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="982" />
+          <entry key="kt" value="1338" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="973" />
+          <entry key="Kotlin" value="1329" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -53,8 +53,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GDK/src/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+            <state relative-caret-position="330">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GDK/src/classes/DataClass/Student.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="121" selection-start-line="2" selection-start-column="121" selection-end-line="2" selection-end-column="121" />
             </state>
           </provider>
         </entry>
@@ -119,6 +128,7 @@
         <option value="$PROJECT_DIR$/GDK/src/classes/enumclass/Gender.kt" />
         <option value="$PROJECT_DIR$/GDK/src/classes/enumclass/User.kt" />
         <option value="$PROJECT_DIR$/GDK/src/classes/Sealed/Operation.kt" />
+        <option value="$PROJECT_DIR$/GDK/src/classes/DataClass/Student.kt" />
         <option value="$PROJECT_DIR$/GDK/src/main.kt" />
       </list>
     </option>
@@ -204,7 +214,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539650015560" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539650835560" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
   </component>
   <component name="RecentsManager">
@@ -343,10 +353,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GDK/src/classes/DataClass/Student.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="121" selection-start-line="2" selection-start-column="121" selection-end-line="2" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GDK/src/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        <state relative-caret-position="330">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>

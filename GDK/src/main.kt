@@ -1,16 +1,24 @@
-import classes.Sealed.Operation
+import classes.DataClass.Student
 
 fun main(args: Array<String>) {
 
-    // Sealed class
-    val result = execute(10, Operation.Multiply(90))
-    println(result)
+    // Data class
+    val student = Student()
+    println("Your name is ${student.name}")
+    println("Your major is ${student.major}")
+    println("Your phone is ${student.phone}")
 
-}
+    val student2 = Student(phone = "081234477889")
+    println("Your phone is ${student2.phone}")
 
-fun execute(x: Int, operation: Operation): Int = when (operation) {
-    is Operation.Add -> operation.value + x
-    is Operation.Divide -> operation.value / x
-    is Operation.Multiply -> operation.value * x
-    is Operation.Substract -> operation.value - x
+    // Menyalin Data Classes dengan Modifikasi
+    val studentA = student.copy(phone = "08189999927")
+    println("Your phone is ${studentA.phone}")
+
+    // Memetakan Objek Menjadi Variabel / destructuring declarations
+    val studentB = Student("Raffasya", "IT", "08123000009")
+    val (name, major, phone) = studentB
+    println(name)
+    println(major)
+    println(phone)
 }
